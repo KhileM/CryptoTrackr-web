@@ -1,0 +1,65 @@
+{
+  "name": "cryptotracker",
+  "homepage": "https://cryptotracker.codesimp.dev",
+  "version": "0.2.0",
+  "private": false,
+  "dependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.16.5",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@mui/styled-engine": "^5.15.9",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.13",
+    "@mui/system": "^5.15.14",
+    "@mui/x-charts": "^6.19.4",
+    "@mui/x-data-grid": "^6.19.1",
+    "@mui/x-data-grid-generator": "^7.0.0",
+    "@mui/x-data-grid-premium": "^6.18.7",
+    "@testing-library/user-event": "^14.5.2",
+    "axios": "^1.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.11.0",
+    "styled-components": "^6.1.8",
+    "victory": "^36.9.1",
+    "web-vitals": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "gh-pages": "^6.1.1"
+  }
+}
